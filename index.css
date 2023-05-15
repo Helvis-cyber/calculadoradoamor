@@ -2,113 +2,116 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
 
 body {
-  padding-top: 350px;
+  padding-top: 10vh;
   margin: auto;
   background-image: url(WhatsApp\ Image\ 2023-05-14\ at\ 00.58.41.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  width: 100%;
-  height: 100%;
+  font-size: 16px;
 }
+
 h1 {
   text-align: center;
-  color: rgb(141, 25, 44);
+  color: rgb(20, 1, 5);
   font-family: "Dancing Script", cursive;
-  font-size: 80px;
+  font-size: 4em;
+  margin: 0;
 }
+
 p {
   font-family: "Nanum Myeongjo", serif;
-  font-size: 30px;
-  color: rgb(236, 9, 161);
+  font-size: 1.5em;
+  color: rgb(5, 1, 4);
   text-align: center;
+  font-weight: bolder;
+  margin: 1em 0;
 }
+
 .texto {
-  padding-bottom: 500px;
+  padding-bottom: 20vh;
 }
+
 button {
-  width: 100px;
-  height: 60px;
+  width: 10em;
+  height: 5em;
   margin: auto;
   border-radius: 50%;
   border: none;
   color: antiquewhite;
   background-color: rgb(214, 14, 14);
+  font-size: 1em;
 }
 
 button:hover {
   cursor: pointer;
   background-color: rgb(148, 3, 27);
 }
+
 .container-2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 1em;
 }
+
 input {
-  align-items: center;
+  height: 2em;
+  font-size: 1em;
 }
+
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
 }
 
 @media (max-width: 600px) {
   body {
-    padding-top: 100px;
+    padding-top: 5vh;
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 2em;
   }
 
   p {
-    font-size: 20px;
+    font-size: 1em;
   }
 
   .texto {
-    padding-bottom: 200px;
+    padding-bottom: 10vh;
   }
 
   button {
-    width: 80px;
-    height: 40px;
-    font-size: 14px;
+    width: 8em;
+    height: 3em;
+    font-size: 0.8em;
   }
 
   input[type="text"] {
-    font-size: 16px;
-    height: 20px;
+    font-size: 1em;
+    height: 2em;
   }
 }
 
 @media (min-width: 601px) and (max-width: 1024px) {
   body {
-    padding-top: 200px;
+    padding-top: 8vh;
   }
 
   h1 {
-    font-size: 60px;
+    font-size: 3em;
   }
 
   p {
-    font-size: 24px;
+    font-size: 1.2em;
   }
 
   .texto {
-    padding-bottom: 300px;
-  }
-
-  button {
-    width: 120px;
-    height: 50px;
-    font-size: 18px;
-  }
-
-  input[type="text"] {
-    font-size: 18px;
-    height: 26px;
+    padding-bottom: 10%;
   }
 }
+
